@@ -1,5 +1,5 @@
 # ĐỒ ÁN CUỐI KÌ
-## Lập trình song song
+## Lập trình song song: Seam carving
 ## Nhóm 07
 
 Lưu Hữu Tình - 21424056
