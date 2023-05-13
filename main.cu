@@ -27,7 +27,6 @@ int main(int argc, char **argv)
 
 	// Compute error
 	print_error((char *)"Error between device result and host result: ", out_host, out_device_1, width, height);
-	print_error((char *)"Error between device result and host result: ", out_host, out_device_2, width, height);
 
 	// Write 2 results to files
 	write_pnm(out_host, newWidth, height, width, concat_str(argv[2], "_host.pnm"));
