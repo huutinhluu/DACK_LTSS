@@ -353,7 +353,11 @@ void resize_image_device(uchar3 *inPixels, int width, int height, int newWidth, 
     free(energy);
 
     timer.Stop();
-    timer.printTime((char *)"device");
+    if (calculateMethod==2){
+        timer.printTime((char *)"device (optimized version)");
+    } else {
+        timer.printTime((char *)"device");
+    }
 }
 
 int get_pixel_energy(uint8_t *grayPixels, int row, int col, int width, int height)
